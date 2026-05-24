@@ -1,0 +1,5 @@
+date,country,platform,sku,roi,spend_usd,gmv_usd,inventory_days,refund_rate,cvr,owner,due_date,amount_usd
+2026-05-22,SG,Meta,ZIEHA Blueberry Jelly 7-pack,2.7,12000,41000,25,0.03,0.046,market_sg,2026-05-24,15000
+2026-05-22,MY,Meta,ZIEHA Blueberry Jelly 7-pack,1.6,8000,12800,10,0.04,0.029,market_my,2026-05-24,8000
+2026-05-22,US,Google,IEM Sunscreen,1.7,5000,8500,6,0.05,0.021,ops_us,2026-05-23,12000
+2026-05-22,PH,TikTok,LABIG Eye Cream,2.9,3000,11000,30,0.02,0.051,content_ph,2026-05-25,6000
