@@ -1,0 +1,96 @@
+[
+  {
+    "type": "approval_gate",
+    "severity": "high",
+    "country": "SG",
+    "platform": "Meta",
+    "sku": "ZIEHA Blueberry Jelly 7-pack",
+    "owner": "market_sg",
+    "due_date": "2026-05-24",
+    "amount_usd": 15000.0,
+    "action": "REQUIRE_24H_COOLDOWN_AND_CHALLENGER_REVIEW",
+    "reason": "Amount $15000.00 exceeds $10000"
+  },
+  {
+    "type": "ad_budget_adjustment",
+    "severity": "medium",
+    "country": "SG",
+    "platform": "Meta",
+    "sku": "ZIEHA Blueberry Jelly 7-pack",
+    "owner": "market_sg",
+    "due_date": "2026-05-24",
+    "amount_usd": 15000.0,
+    "action": "RAISE_BUDGET_15%",
+    "reason": "ROI 2.7 above 2.5 with healthy stock"
+  },
+  {
+    "type": "ad_budget_adjustment",
+    "severity": "high",
+    "country": "MY",
+    "platform": "Meta",
+    "sku": "ZIEHA Blueberry Jelly 7-pack",
+    "owner": "market_my",
+    "due_date": "2026-05-24",
+    "amount_usd": 8000.0,
+    "action": "CUT_BUDGET_20%",
+    "reason": "ROI 1.6 below 1.8"
+  },
+  {
+    "type": "inventory_alert",
+    "severity": "warning",
+    "country": "MY",
+    "sku": "ZIEHA Blueberry Jelly 7-pack",
+    "owner": "market_my",
+    "due_date": "2026-05-24",
+    "amount_usd": 8000.0,
+    "action": "REPLENISHMENT_WARNING",
+    "reason": "Inventory days 10.0 below warning 14"
+  },
+  {
+    "type": "approval_gate",
+    "severity": "high",
+    "country": "US",
+    "platform": "Google",
+    "sku": "IEM Sunscreen",
+    "owner": "ops_us",
+    "due_date": "2026-05-23",
+    "amount_usd": 12000.0,
+    "action": "REQUIRE_24H_COOLDOWN_AND_CHALLENGER_REVIEW",
+    "reason": "Amount $12000.00 exceeds $10000"
+  },
+  {
+    "type": "ad_budget_adjustment",
+    "severity": "high",
+    "country": "US",
+    "platform": "Google",
+    "sku": "IEM Sunscreen",
+    "owner": "ops_us",
+    "due_date": "2026-05-23",
+    "amount_usd": 12000.0,
+    "action": "CUT_BUDGET_20%",
+    "reason": "ROI 1.7 below 1.8"
+  },
+  {
+    "type": "inventory_alert",
+    "severity": "critical",
+    "country": "US",
+    "sku": "IEM Sunscreen",
+    "owner": "ops_us",
+    "due_date": "2026-05-23",
+    "amount_usd": 12000.0,
+    "action": "EMERGENCY_REPLENISH_AND_DOWNSCALE_ADS",
+    "reason": "Inventory days 6.0 below critical 7"
+  },
+  {
+    "type": "ad_budget_adjustment",
+    "severity": "medium",
+    "country": "PH",
+    "platform": "TikTok",
+    "sku": "LABIG Eye Cream",
+    "owner": "content_ph",
+    "due_date": "2026-05-25",
+    "amount_usd": 6000.0,
+    "action": "RAISE_BUDGET_15%",
+    "reason": "ROI 2.9 above 2.5 with healthy stock"
+  }
+]

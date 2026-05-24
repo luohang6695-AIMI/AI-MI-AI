@@ -1,0 +1,26 @@
+{
+  "targets": {
+    "revenue_usd_daily": 328767,
+    "core_sku": "ZIEHA Blueberry Jelly 7-pack"
+  },
+  "ad_rules": {
+    "low_roi_threshold": 1.8,
+    "high_roi_threshold": 2.5,
+    "low_roi_budget_cut_pct": 20,
+    "high_roi_budget_raise_pct": 15,
+    "min_inventory_days_for_scale": 21
+  },
+  "inventory_rules": {
+    "warning_days": 14,
+    "critical_days": 7
+  },
+  "governance_rules": {
+    "approval_threshold_usd": 10000,
+    "require_owner": true,
+    "require_due_date": true,
+    "require_amount": true
+  },
+  "report": {
+    "top_n_risks": 10
+  }
+}
