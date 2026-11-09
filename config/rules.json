@@ -22,5 +22,40 @@
   },
   "report": {
     "top_n_risks": 10
+  },
+  "market_launch_rules": {
+    "target_countries": [
+      "VN",
+      "TH",
+      "MY",
+      "SG",
+      "BR",
+      "TW"
+    ],
+    "required_status": "ready",
+    "max_launch_budget_usd": 10000,
+    "readiness_fields": [
+      "localization_status",
+      "payment_status",
+      "logistics_status",
+      "compliance_status"
+    ]
+  },
+  "operator_rules": {
+    "monthly_min_revenue_usd": 100000000,
+    "days_per_month": 30,
+    "operator_mode": "dry_run_until_credentials_connected",
+    "required_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "daily_operator_roles": [
+      "growth_operator",
+      "supply_operator",
+      "finance_gatekeeper"
+    ]
   }
 }

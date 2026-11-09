@@ -1,0 +1,25 @@
+[
+  {
+    "type": "ad_budget_adjustment",
+    "severity": "high",
+    "country": "MY",
+    "platform": "Meta",
+    "sku": "ZIEHA Blueberry Jelly 7-pack",
+    "owner": "market_my",
+    "due_date": "2026-05-24",
+    "amount_usd": 8000.0,
+    "action": "CUT_BUDGET_20%",
+    "reason": "ROI 1.6 below 1.8"
+  },
+  {
+    "type": "inventory_alert",
+    "severity": "warning",
+    "country": "MY",
+    "sku": "ZIEHA Blueberry Jelly 7-pack",
+    "owner": "market_my",
+    "due_date": "2026-05-24",
+    "amount_usd": 8000.0,
+    "action": "REPLENISHMENT_WARNING",
+    "reason": "Inventory days 10.0 below warning 14"
+  }
+]

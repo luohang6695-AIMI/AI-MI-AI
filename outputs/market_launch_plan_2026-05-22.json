@@ -1,0 +1,144 @@
+[
+  {
+    "country": "BR",
+    "platform": "Mercado Livre",
+    "priority": 1,
+    "owner": "market_br",
+    "due_date": "2026-06-10",
+    "budget_usd": 12000.0,
+    "status": "BLOCKED",
+    "blockers": [
+      "logistics",
+      "compliance",
+      "budget_approval"
+    ],
+    "next_action": "Clear blockers before launch gate"
+  },
+  {
+    "country": "BR",
+    "platform": "Shopee",
+    "priority": 2,
+    "owner": "market_br",
+    "due_date": "2026-06-12",
+    "budget_usd": 8000.0,
+    "status": "BLOCKED",
+    "blockers": [
+      "logistics",
+      "compliance"
+    ],
+    "next_action": "Clear blockers before launch gate"
+  },
+  {
+    "country": "MY",
+    "platform": "Shopee",
+    "priority": 1,
+    "owner": "market_my",
+    "due_date": "2026-06-02",
+    "budget_usd": 7000.0,
+    "status": "LAUNCH_NOW",
+    "blockers": [],
+    "next_action": "Publish storefront, start creator seeding, and open daily GMV/ROI loop"
+  },
+  {
+    "country": "MY",
+    "platform": "Lazada",
+    "priority": 2,
+    "owner": "market_my",
+    "due_date": "2026-06-05",
+    "budget_usd": 4500.0,
+    "status": "LAUNCH_NOW",
+    "blockers": [],
+    "next_action": "Publish storefront, start creator seeding, and open daily GMV/ROI loop"
+  },
+  {
+    "country": "SG",
+    "platform": "Shopee",
+    "priority": 1,
+    "owner": "market_sg",
+    "due_date": "2026-06-02",
+    "budget_usd": 8000.0,
+    "status": "LAUNCH_NOW",
+    "blockers": [],
+    "next_action": "Publish storefront, start creator seeding, and open daily GMV/ROI loop"
+  },
+  {
+    "country": "SG",
+    "platform": "TikTok Shop",
+    "priority": 2,
+    "owner": "content_sg",
+    "due_date": "2026-06-06",
+    "budget_usd": 5000.0,
+    "status": "LAUNCH_NOW",
+    "blockers": [],
+    "next_action": "Publish storefront, start creator seeding, and open daily GMV/ROI loop"
+  },
+  {
+    "country": "TH",
+    "platform": "Shopee",
+    "priority": 1,
+    "owner": "market_th",
+    "due_date": "2026-06-03",
+    "budget_usd": 6500.0,
+    "status": "LAUNCH_NOW",
+    "blockers": [],
+    "next_action": "Publish storefront, start creator seeding, and open daily GMV/ROI loop"
+  },
+  {
+    "country": "TH",
+    "platform": "Lazada",
+    "priority": 2,
+    "owner": "market_th",
+    "due_date": "2026-06-05",
+    "budget_usd": 4500.0,
+    "status": "LAUNCH_NOW",
+    "blockers": [],
+    "next_action": "Publish storefront, start creator seeding, and open daily GMV/ROI loop"
+  },
+  {
+    "country": "TW",
+    "platform": "Shopee",
+    "priority": 1,
+    "owner": "market_tw",
+    "due_date": "2026-06-04",
+    "budget_usd": 6500.0,
+    "status": "LAUNCH_NOW",
+    "blockers": [],
+    "next_action": "Publish storefront, start creator seeding, and open daily GMV/ROI loop"
+  },
+  {
+    "country": "TW",
+    "platform": "momo",
+    "priority": 2,
+    "owner": "market_tw",
+    "due_date": "2026-06-11",
+    "budget_usd": 5000.0,
+    "status": "BLOCKED",
+    "blockers": [
+      "payment",
+      "compliance"
+    ],
+    "next_action": "Clear blockers before launch gate"
+  },
+  {
+    "country": "VN",
+    "platform": "Shopee",
+    "priority": 1,
+    "owner": "market_vn",
+    "due_date": "2026-06-03",
+    "budget_usd": 6000.0,
+    "status": "LAUNCH_NOW",
+    "blockers": [],
+    "next_action": "Publish storefront, start creator seeding, and open daily GMV/ROI loop"
+  },
+  {
+    "country": "VN",
+    "platform": "TikTok Shop",
+    "priority": 2,
+    "owner": "content_vn",
+    "due_date": "2026-06-04",
+    "budget_usd": 5000.0,
+    "status": "LAUNCH_NOW",
+    "blockers": [],
+    "next_action": "Publish storefront, start creator seeding, and open daily GMV/ROI loop"
+  }
+]

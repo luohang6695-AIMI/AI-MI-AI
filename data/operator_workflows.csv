@@ -1,0 +1,9 @@
+trigger,step_order,command_template,owner,approval_required
+LAUNCH_NOW,1,CREATE_OR_UPDATE_STOREFRONT country={country} platform={platform},growth_operator,false
+LAUNCH_NOW,2,PUBLISH_SKU_LIST country={country} platform={platform} sku_bundle=core_sku,growth_operator,false
+LAUNCH_NOW,3,START_CREATOR_SEEDING country={country} platform={platform} daily_budget_usd={creator_budget},content_operator,false
+LAUNCH_NOW,4,START_AD_TEST country={country} platform={platform} daily_budget_usd={ad_budget},growth_operator,false
+LAUNCH_NOW,5,OPEN_DAILY_METRICS_LOOP country={country} platform={platform},growth_operator,false
+BLOCKED,1,CLEAR_LAUNCH_BLOCKERS country={country} platform={platform} blockers={blockers},growth_operator,false
+budget_approval,1,REQUEST_24H_COOLDOWN_AND_CHALLENGER_REVIEW country={country} platform={platform} amount_usd={budget_usd},finance_gatekeeper,true
+REVENUE_GAP,1,CREATE_GROWTH_SPRINT gap_usd={gap_usd} required_daily_usd={required_daily_usd},growth_operator,false

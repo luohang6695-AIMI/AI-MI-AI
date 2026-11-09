@@ -1,0 +1,24 @@
+[
+  {
+    "country": "MY",
+    "platform": "Shopee",
+    "priority": 1,
+    "owner": "market_my",
+    "due_date": "2026-06-02",
+    "budget_usd": 7000.0,
+    "status": "LAUNCH_NOW",
+    "blockers": [],
+    "next_action": "Publish storefront, start creator seeding, and open daily GMV/ROI loop"
+  },
+  {
+    "country": "MY",
+    "platform": "Lazada",
+    "priority": 2,
+    "owner": "market_my",
+    "due_date": "2026-06-05",
+    "budget_usd": 4500.0,
+    "status": "LAUNCH_NOW",
+    "blockers": [],
+    "next_action": "Publish storefront, start creator seeding, and open daily GMV/ROI loop"
+  }
+]

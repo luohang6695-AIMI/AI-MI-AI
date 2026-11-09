@@ -1,0 +1,31 @@
+[
+  {
+    "campaign_id": "MY_PROBIOTIC_SHOPEE_BLITZ",
+    "country": "MY",
+    "platform": "Shopee",
+    "sku": "Probiotic Hero SKU",
+    "objective": "scale_live_and_affiliate",
+    "owner": "market_my",
+    "due_date": "2026-06-07",
+    "status": "ready",
+    "target_daily_gmv_usd": 50000.0,
+    "budget": {
+      "total_budget_usd": 10000.0,
+      "shopee_ads_usd": 3500.0,
+      "coins_usd": 6500.0
+    },
+    "execution_steps": [
+      "Confirm probiotic hero SKU margin, stock, claims, and Malaysia compliance before scaling",
+      "Set Shopee Product Ads, Shop Ads, and Live Ads using the ads budget",
+      "Run Coins only together with live sessions and ads traffic",
+      "Keep core live room concurrent viewers at or above 3000",
+      "Recruit affiliate hosts and seed product samples before the live push",
+      "Update GMV, ad spend, ROI, refund rate, and inventory days in daily_metrics.csv every day"
+    ],
+    "kill_switches": [
+      "Stop scaling if inventory days fall below the warning threshold",
+      "Stop or cut budget if ROI falls below the low ROI threshold",
+      "Stop claims or creatives that create compliance risk"
+    ]
+  }
+]
