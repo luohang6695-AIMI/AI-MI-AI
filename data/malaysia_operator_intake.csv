@@ -1,0 +1,13 @@
+category,item,status,owner,secure_channel,notes
+access,Shopee MY sub-account or API token,needed,user,password_manager_or_platform_invite,Do not send password in chat
+access,TikTok Shop MY sub-account or API token,needed,user,password_manager_or_platform_invite,Do not send password in chat
+access,Lazada MY sub-account or API token,needed,user,password_manager_or_platform_invite,Do not send password in chat
+product,Probiotic SKU name and variant list,needed,user,spreadsheet_or_csv,Needed before listing and ads
+product,Cost price selling price gross margin,needed,user,spreadsheet_or_csv,Needed for ROI and discount limits
+product,Malaysia compliance and claims approval,needed,user,drive_or_compliance_folder,Needed before probiotic claims go live
+inventory,Available stock by warehouse,needed,user,inventory_sheet_or_api,Needed for scale limit
+inventory,Replenishment lead time and MOQ,needed,user,inventory_sheet_or_api,Needed for kill switch and purchase timing
+budget,Daily Shopee Ads budget cap,needed,user,written_approval,Needed before launch
+budget,Coins budget cap per live session,needed,user,written_approval,Needed before coins push
+creative,Product photos videos live scripts,needed,user,drive_folder,Needed for PDP ads live and affiliates
+ops,Daily sales stock and refund sheet access,needed,user,google_sheet_invite,Needed for daily update loop

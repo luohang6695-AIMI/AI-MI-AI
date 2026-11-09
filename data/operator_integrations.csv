@@ -1,0 +1,6 @@
+integration,status,owner,due_date,notes
+storefront_api,credentials_pending,tech_operator,2026-11-08,Shopee MY read-only sync implemented; waiting for Open Platform app approval shop authorization callback and tokens
+ads_api,missing,growth_operator,2026-06-01,Connect Meta/Google/TikTok/Shopee Ads budget and campaign APIs
+affiliate_api,missing,content_operator,2026-06-02,Connect creator seeding and affiliate recruitment workflow
+inventory_api,missing,supply_operator,2026-06-02,Connect warehouse stock/replenishment feed
+finance_api,missing,finance_gatekeeper,2026-06-03,Connect payment/cashflow/approval ledger

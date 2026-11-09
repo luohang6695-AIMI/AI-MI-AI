@@ -1,0 +1,13 @@
+country,platform,launch_stage,owner,due_date,budget_usd,priority,localization_status,payment_status,logistics_status,compliance_status
+VN,Shopee,ready,market_vn,2026-06-03,6000,1,ready,ready,ready,ready
+VN,TikTok Shop,ready,content_vn,2026-06-04,5000,2,ready,ready,ready,ready
+TH,Shopee,ready,market_th,2026-06-03,6500,1,ready,ready,ready,ready
+TH,Lazada,ready,market_th,2026-06-05,4500,2,ready,ready,ready,ready
+MY,Shopee,ready,market_my,2026-06-02,7000,1,ready,ready,ready,ready
+MY,Lazada,ready,market_my,2026-06-05,4500,2,ready,ready,ready,ready
+SG,Shopee,ready,market_sg,2026-06-02,8000,1,ready,ready,ready,ready
+SG,TikTok Shop,ready,content_sg,2026-06-06,5000,2,ready,ready,ready,ready
+BR,Mercado Livre,blocked,market_br,2026-06-10,12000,1,ready,ready,blocked,review
+BR,Shopee,blocked,market_br,2026-06-12,8000,2,ready,ready,blocked,review
+TW,Shopee,ready,market_tw,2026-06-04,6500,1,ready,ready,ready,ready
+TW,momo,blocked,market_tw,2026-06-11,5000,2,ready,blocked,ready,review

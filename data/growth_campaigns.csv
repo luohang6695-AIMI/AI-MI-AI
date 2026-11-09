@@ -1,0 +1,2 @@
+campaign_id,country,platform,sku,objective,owner,due_date,total_budget_usd,ads_pct,coins_pct,min_live_viewers,target_daily_gmv_usd,status
+MY_PROBIOTIC_SHOPEE_BLITZ,MY,Shopee,Probiotic Hero SKU,scale_live_and_affiliate,market_my,2026-06-07,10000,0.35,0.65,3000,50000,ready

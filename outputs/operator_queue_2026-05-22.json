@@ -1,0 +1,902 @@
+[
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "REVENUE_GAP",
+    "country": "",
+    "platform": "",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "CREATE_GROWTH_SPRINT gap_usd=3260033.33 required_daily_usd=3333333.33",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "BLOCKED",
+    "country": "BR",
+    "platform": "Mercado Livre",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "CLEAR_LAUNCH_BLOCKERS country=BR platform=Mercado Livre blockers=logistics,compliance,budget_approval",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "budget_approval",
+    "country": "BR",
+    "platform": "Mercado Livre",
+    "owner": "finance_gatekeeper",
+    "approval_required": true,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "REQUEST_24H_COOLDOWN_AND_CHALLENGER_REVIEW country=BR platform=Mercado Livre amount_usd=12000.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "BLOCKED",
+    "country": "BR",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "CLEAR_LAUNCH_BLOCKERS country=BR platform=Shopee blockers=logistics,compliance",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "MY",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "CREATE_OR_UPDATE_STOREFRONT country=MY platform=Shopee",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "MY",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "PUBLISH_SKU_LIST country=MY platform=Shopee sku_bundle=core_sku",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "MY",
+    "platform": "Shopee",
+    "owner": "content_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_CREATOR_SEEDING country=MY platform=Shopee daily_budget_usd=1750.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "MY",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_AD_TEST country=MY platform=Shopee daily_budget_usd=3500.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "MY",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "OPEN_DAILY_METRICS_LOOP country=MY platform=Shopee",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "MY",
+    "platform": "Lazada",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "CREATE_OR_UPDATE_STOREFRONT country=MY platform=Lazada",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "MY",
+    "platform": "Lazada",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "PUBLISH_SKU_LIST country=MY platform=Lazada sku_bundle=core_sku",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "MY",
+    "platform": "Lazada",
+    "owner": "content_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_CREATOR_SEEDING country=MY platform=Lazada daily_budget_usd=1125.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "MY",
+    "platform": "Lazada",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_AD_TEST country=MY platform=Lazada daily_budget_usd=2250.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "MY",
+    "platform": "Lazada",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "OPEN_DAILY_METRICS_LOOP country=MY platform=Lazada",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "SG",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "CREATE_OR_UPDATE_STOREFRONT country=SG platform=Shopee",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "SG",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "PUBLISH_SKU_LIST country=SG platform=Shopee sku_bundle=core_sku",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "SG",
+    "platform": "Shopee",
+    "owner": "content_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_CREATOR_SEEDING country=SG platform=Shopee daily_budget_usd=2000.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "SG",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_AD_TEST country=SG platform=Shopee daily_budget_usd=4000.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "SG",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "OPEN_DAILY_METRICS_LOOP country=SG platform=Shopee",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "SG",
+    "platform": "TikTok Shop",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "CREATE_OR_UPDATE_STOREFRONT country=SG platform=TikTok Shop",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "SG",
+    "platform": "TikTok Shop",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "PUBLISH_SKU_LIST country=SG platform=TikTok Shop sku_bundle=core_sku",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "SG",
+    "platform": "TikTok Shop",
+    "owner": "content_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_CREATOR_SEEDING country=SG platform=TikTok Shop daily_budget_usd=1250.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "SG",
+    "platform": "TikTok Shop",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_AD_TEST country=SG platform=TikTok Shop daily_budget_usd=2500.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "SG",
+    "platform": "TikTok Shop",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "OPEN_DAILY_METRICS_LOOP country=SG platform=TikTok Shop",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "TH",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "CREATE_OR_UPDATE_STOREFRONT country=TH platform=Shopee",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "TH",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "PUBLISH_SKU_LIST country=TH platform=Shopee sku_bundle=core_sku",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "TH",
+    "platform": "Shopee",
+    "owner": "content_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_CREATOR_SEEDING country=TH platform=Shopee daily_budget_usd=1625.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "TH",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_AD_TEST country=TH platform=Shopee daily_budget_usd=3250.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "TH",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "OPEN_DAILY_METRICS_LOOP country=TH platform=Shopee",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "TH",
+    "platform": "Lazada",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "CREATE_OR_UPDATE_STOREFRONT country=TH platform=Lazada",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "TH",
+    "platform": "Lazada",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "PUBLISH_SKU_LIST country=TH platform=Lazada sku_bundle=core_sku",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "TH",
+    "platform": "Lazada",
+    "owner": "content_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_CREATOR_SEEDING country=TH platform=Lazada daily_budget_usd=1125.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "TH",
+    "platform": "Lazada",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_AD_TEST country=TH platform=Lazada daily_budget_usd=2250.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "TH",
+    "platform": "Lazada",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "OPEN_DAILY_METRICS_LOOP country=TH platform=Lazada",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "TW",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "CREATE_OR_UPDATE_STOREFRONT country=TW platform=Shopee",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "TW",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "PUBLISH_SKU_LIST country=TW platform=Shopee sku_bundle=core_sku",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "TW",
+    "platform": "Shopee",
+    "owner": "content_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_CREATOR_SEEDING country=TW platform=Shopee daily_budget_usd=1625.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "TW",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_AD_TEST country=TW platform=Shopee daily_budget_usd=3250.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "TW",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "OPEN_DAILY_METRICS_LOOP country=TW platform=Shopee",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "BLOCKED",
+    "country": "TW",
+    "platform": "momo",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "CLEAR_LAUNCH_BLOCKERS country=TW platform=momo blockers=payment,compliance",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "VN",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "CREATE_OR_UPDATE_STOREFRONT country=VN platform=Shopee",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "VN",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "PUBLISH_SKU_LIST country=VN platform=Shopee sku_bundle=core_sku",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "VN",
+    "platform": "Shopee",
+    "owner": "content_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_CREATOR_SEEDING country=VN platform=Shopee daily_budget_usd=1500.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "VN",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_AD_TEST country=VN platform=Shopee daily_budget_usd=3000.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "VN",
+    "platform": "Shopee",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "OPEN_DAILY_METRICS_LOOP country=VN platform=Shopee",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "VN",
+    "platform": "TikTok Shop",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "CREATE_OR_UPDATE_STOREFRONT country=VN platform=TikTok Shop",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "VN",
+    "platform": "TikTok Shop",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "PUBLISH_SKU_LIST country=VN platform=TikTok Shop sku_bundle=core_sku",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "VN",
+    "platform": "TikTok Shop",
+    "owner": "content_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_CREATOR_SEEDING country=VN platform=TikTok Shop daily_budget_usd=1250.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "VN",
+    "platform": "TikTok Shop",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "START_AD_TEST country=VN platform=TikTok Shop daily_budget_usd=2500.00",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  },
+  {
+    "run_date": "2026-05-22",
+    "mode": "dry_run_until_credentials_connected",
+    "trigger": "LAUNCH_NOW",
+    "country": "VN",
+    "platform": "TikTok Shop",
+    "owner": "growth_operator",
+    "approval_required": false,
+    "blocked_by_integrations": [
+      "storefront_api",
+      "ads_api",
+      "affiliate_api",
+      "inventory_api",
+      "finance_api"
+    ],
+    "command": "OPEN_DAILY_METRICS_LOOP country=VN platform=TikTok Shop",
+    "status": "NEEDS_SETUP_OR_APPROVAL"
+  }
+]
